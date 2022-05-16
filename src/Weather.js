@@ -19,7 +19,7 @@ export default function Weather(props){
       wind: response.data.wind.speed, 
       city: response.data.name,
       description: response.data.weather[0].description,
-      iconUrl:`https://cdn2.iconfinder.com/data/icons/weather-icons-25/100/sunny-512.png`, 
+      icon:response.data.weather[0].icon, 
     });
   }
 

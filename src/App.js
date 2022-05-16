@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <Weather defaultCity="San Luis Obsipo"/>
+      <Weather defaultCity="San Francisco"/>
       <footer>
         This project was coded by Amanda Corral and is 
       <a href="https://github.com/Amandacorral07/weather-app-react" target="_blank" rel="noreferrer"> open-sourced on GitHub</a>
